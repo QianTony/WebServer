@@ -13,3 +13,5 @@ The whole app is divided into three Containers:
 3. MySQL lies in `MySQL` Container,
  
 Reference: https://github.com/micooz/docker-lnmp.git
+
+[1]: architecture.png
