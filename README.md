@@ -1,6 +1,7 @@
 # WebServer
 
-Version 1 LNMP
+Version 1 LNMP (Linux, Nginx, PHP7, Mysql)
+Nginx and Mysql use the latest official image.
 
 ### Architecture
 
@@ -15,3 +16,16 @@ The whole app is divided into three Containers:
 Reference: https://github.com/micooz/docker-lnmp.git
 
 [1]: architecture.png
+
+### Build and Run
+At first, you should have had Docker and Docker Compose installed.
+
+Without building images one by one, you can make use of docker-compose and simply issue:
+$ sudo docker-compose up
+
+For more operations to containers, please refer to:
+$ sudo docker-compose --help
+
+### License
+
+MIT
