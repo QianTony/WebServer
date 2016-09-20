@@ -21,10 +21,12 @@ Reference: https://github.com/micooz/docker-lnmp.git
 At first, you should have had Docker and Docker Compose installed.
 
 Without building images one by one, you can make use of docker-compose and simply issue:
-$ sudo docker-compose up
+
+	$ sudo docker-compose up
 
 For more operations to containers, please refer to:
-$ sudo docker-compose --help
+
+	$ sudo docker-compose --help
 
 ### License
 
